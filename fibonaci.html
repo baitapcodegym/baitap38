@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dãy fibonaci</title>
+</head>
+<body>
+<script>
+    let fibonaci =[0,1];
+    let a = 0;
+    let b = 1;
+    let number = prompt('nhập số lượng số fibonaci cần hiện');
+    for (let i=2; i<number;i++){
+        fibonaci[i]= a + b;
+        a=b;
+        b=fibonaci[i];
+    }
+    document.write(fibonaci)
+</script>
+</body>
+</html>

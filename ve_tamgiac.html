@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vẽ tam giác</title>
+</head>
+<body>
+    <script>
+        for ( i = 1 ; i <= 5 ; i++){
+            for( n = 1 ; n <= i ; n ++) {
+                document.write('*');
+
+            }
+            document.write('<br>');
+        };
+
+        for ( a = 5 ; a >= 0 ; a--){
+            for ( b = 1 ; b <= a ; b++){
+                document.write('*')
+            }
+            document.write('<br>')
+        }
+        for ( i = 1 ; i <= 5 ; i++){
+
+            for(c = 5 ; c > i ; c --){
+                document.write('&nbsp  ')
+            }
+            for( n = 1 ; n <= i ; n ++) {
+                document.write('*');
+
+            }
+            document.write('<br>');
+        };
+
+        for ( i = 5 ; i >= 0 ; i--){
+
+            for(c = 5 ; c > i ; c --){
+                document.write('&nbsp  ')
+            }
+            for( n = 1 ; n <= i ; n ++) {
+                document.write('*');
+
+            }
+            document.write('<br>');
+        };
+
+    </script>
+</body>
+</html>
